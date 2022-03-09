@@ -10,7 +10,7 @@ public class User {
     private final StringValidator email;
     private final StringValidator password;
 
-    public User(StringValidator username, StringValidator email, StringValidator password) {
+    private User(StringValidator username, StringValidator email, StringValidator password) {
         this.username = username;
         this.email = email;
         this.password = password;
