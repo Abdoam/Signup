@@ -2,9 +2,6 @@ package program.signup4.validator.user;
 
 import program.signup4.validator.StringValidator;
 
-import javax.inject.Singleton;
-
-@Singleton
 public class UsernameValidator implements StringValidator {
     private String username;
 
